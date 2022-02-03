@@ -12,4 +12,6 @@ To use the package programmatically, import the `launch_viewer` function:
 
 ```python
 from frame_viewer.__main__ import launch_viewer
+
+launch_viewer(file_name, verbose=verbose)
 ```

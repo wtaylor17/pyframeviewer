@@ -7,3 +7,9 @@ First run `pip install .` (after cloning) or `pip install git+https://github.com
 ```
 python -m frame_viewer <path-to-video>
 ```
+
+To use the package programmatically, import the `launch_viewer` function:
+
+```python
+from frame_viewer.__main__ import launch_viewer
+```
